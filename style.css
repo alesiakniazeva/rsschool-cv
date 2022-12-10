@@ -41,6 +41,7 @@
 
 body{
     background-color: #101010;
+    color:white;
 }
 
 .container {
@@ -78,25 +79,22 @@ body{
 
 .right-side{
     float:right;
-    width: 369px;
-    height: 1743px;
+    width: 370px;
+    height: 1785px;
     background: #782DF2;
 }
 
 
 .main{
-    margin-top:110px;
+    margin-top:120px;
 }
 
-.left-line{
 
-}
 
 .h1-title{
     font-family: RoadRadio;
     font-size: 68px;
     font-weight: 700;
-    color:white; 
     letter-spacing: 0.03em;   
 }
 
@@ -104,10 +102,135 @@ body{
     font-family: RoadRadio;
     font-size: 16px;
     font-weight: 100;
-    color:white; 
     letter-spacing: 0.03em; 
     margin-top:20px;  
 }
+
+.h2-title{
+    font-family: RoadRadio;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.03em;  
+}
+
+.left-line{
+    width:1px;
+    height:1390px;
+    background-color: #ffffff;
+    float:left;
+    margin-top:90px;
+}
+
+.info-block{
+    margin-left:100px;
+    margin-top:60px;
+}
+
+
+
+
+.info-block-first {
+    margin-left:100px;
+    margin-top:90px;
+}
+
+
+.p-info{
+    font-family: SF;
+    font-size: 32px;
+    font-weight: 300; 
+    font-size: 18px;
+    line-height: 30px;
+    margin-top:20px;
+}
+
+.code-container{
+    background-color: #1D1D1D;
+    margin-top:20px;
+    width:500px; 
+    padding:20px;
+}
+
+.project-first{
+    display: block;
+    margin-top:20px;
+}
+
+.project{
+    display: block;
+    margin-top:10px;
+}    
+
+.myimg{
+    width: 339px;
+    height: 539px;
+    margin-top:110px;
+}
+
+.ul-right-side{
+    font-family: SF;
+    font-size: 32px;
+    font-weight: 300; 
+    font-size: 18px;
+    line-height:34px;
+    margin-top:20px;
+}
+
+.li-right-side{
+    list-style-type: none;
+}
+
+.info-block-right-side-first{
+    margin-left:58px;
+    margin-top:71px;
+}
+
+.info-block-right-side{
+    margin-left:58px;
+    margin-top:50px;
+}
+
+.p-info-right{
+    font-family: SF;
+    font-size: 32px;
+    font-weight: 100; 
+    font-size: 18px;
+    line-height: 30px;
+    margin-top:12px;
+}
+
+.a-contacts{
+    color:#ffffff;
+    display: block;
+}
+
+.footer{
+    width: 1168px;
+    height: 117px;
+    border: 1px solid #FFFFFF;
+    background-color: #101010;
+    margin-top:43px;
+    display: FLEX;
+    align-items: center;
+    justify-content: space-between;
+}
+.rsschool-logo-footer{
+    margin-left:20px;
+}
+
+.gh-logo-footer{
+    margin-right:20px;
+}
+
+.name-footer{
+    font-family: RoadRadio;
+    font-size: 32px;
+    font-weight: 100; 
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
 
 
 

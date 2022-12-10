@@ -9,23 +9,100 @@
 </head>
 <body>
 <div class="container">
-    <section class="right-side"></section>
+    <div class="right-side">
+        <img src="assets/images/myimg.png" alt="author-image" class="myimg">
+        <section class="info-block-right-side-first">
+            <h2 class="h2-title">SKILLS</h2>
+            <ul class="ul-right-side">
+                <li class="li-right-side">Figma</li>
+                <li class="li-right-side">Photoshop</li>
+                <li class="li-right-side">UX/UI</li>
+                <li class="li-right-side">Delphi</li>
+                <li class="li-right-side">MySQL</li>
+                <li class="li-right-side">MS SQL</li>
+                <li class="li-right-side">English: B1</li>
+            </ul>
+        </section>
+        <section class="info-block-right-side">
+            <h2 class="h2-title">EDUCATION</h2>
+            <p class="p-info-right"><b>2016-2021:</b> BSU, Physics Faculty</p>
+        </section>
+
+        <section id="work" class="info-block-right-side">
+            <h2 class="h2-title">WORK<br>POSITIONS</h2>
+            <ul class="ul-right-side">
+                <p class="p-info-right"><b>December 2020 - June 2022:</b><br>Web-designer, self-employed</p>
+                <p class="p-info-right"><b>June 2022 - Now:</b><br>Software Engineer at Beltelecom</p>
+            </ul>
+        </section>
+
+        <section class="info-block-right-side">
+            <h2 class="h2-title">CONTACTS</h2>
+            <ul class="ul-right-side">
+                <a href="https://t.me/TracerMaker2077" class="a-contacts">Telegram</a>
+                <a href="alice.xx.green@gmail.com" class="a-contacts">E-mail</a>
+                <a href="https://github.com/alesiakniazeva" class="a-contacts">Behance</a>
+                <a href="alice.xx.green@gmail.com" class="a-contacts">GitHub</a>
+            </ul>
+        </section>
+    </div>
     <header class="header">
         <nav class="nav">
             <ul class="menu">
-                <li class="menu-item"><a class = "a-menu" href="">CODE</a></li>
-                <li class="menu-item"><a class = "a-menu" href="">PROJECTS</a></li>
-                <li class="menu-item"><a class = "a-menu" href="">WORK POSITIONS</a></li>
-                <li class="menu-item"><a class = "a-menu" href="">CONTACTS</a></li>
+                <li class="menu-item"><a class = "a-menu" href="#code">CODE</a></li>
+                <li class="menu-item"><a class = "a-menu" href="#projects">PROJECTS</a></li>
+                <li class="menu-item"><a class = "a-menu" href="#work">WORK POSITIONS</a></li>
+                <li class="menu-item"><a class = "a-menu" href="contacts">CONTACTS</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <h1 class="h1-title">Alesia Kniazeva</h1>
         <p class="h1-semititle">WEB-DESIGNER & SOFTWARE ENGINEER</p>
+        <section class="left-line"></section>
+        <section class="info-block-first">
+            <h2 class="h2-title">ABOUT ME</h2>
+            <p class="p-info">
+                Hello, my name’s Alesia Kniazeva. I work as a software engineer<br>
+                in the biggest telecommunication company in Belarus. I develop<br>
+                applications for internal needs of company using Delphi, MySQL,<br>
+                MS SQL. Also I’ve been working as web-designer and marketer<br>
+                on freelance since 2020. I’ve been creating landing pages prototypes<br>
+                and design. My key strengths are patience, purposefulness<br>
+                and thirst for knowledge.
+            </p>
+        </section>
+       <section id="code" class="info-block">
+        <h2 class="h2-title">CODE EXAMPLES</h2>
+        <div class="code-container">
+            <code class="code"><pre>
+SELECT COUNT(*) FROM (
+SELECT itog2.d_id,  itog2.d_m_id, itog2.d_date, itog2.d_type FROM
+(SELECT d_m_id, d_date, d_type, max(d_id) as d_id FROM dvig_tbl
+WHERE d_date <='2022-11-19'
+GROUP BY d_m_id ) as itog
+INNER JOIN dvig_tbl AS itog2 on itog2.d_m_id = itog.d_m_id
+AND itog2.d_id = itog.d_id
+GROUP BY itog2.d_m_id) AS itog3
+WHERE d_type = 'поступление' OR d_type = 'возврат'</pre>
+            </code>
+        </div>
+       </section>
+       <section id="projects" class="info-block">
+        <h2 class="h2-title">MY PROJECTS</h2>
+        <a href="https://www.behance.net/gallery/141019759/dizajn-lendinga-dlja-zapuska-kursa-po-zhenstvennosti" class="project-first">
+            <img src="assets/images/goddess.png" alt="langing-page-for-online-course-goddes">
+        </a>
+        <a href="https://www.behance.net/gallery/139906103/dizajn-lendinga-dlja-zapuska-kursa-po-tovarnomu-biznesu" class="project">
+            <img src="assets/images/shopify.png" alt="langing-page-for-online-course-shopify">
+        </a>
+
+       </section>
     </main>
     <footer class="footer">
-
+        <a href="https://rs.school/js/" class="logo-footer"><img src="assets/icons/rs_school_js.svg" alt="rsschool-logo" class="rsschool-logo-footer"></a>
+        <p class="name-footer">ALESIA KNIAZEVA 2022</p>
+        <a href="https://github.com/alesiakniazeva" class="logo-footer"><img src="assets/icons/GitHub-Logo.wine.svg" alt="gh-logo" class="gh-logo-footer"></a>
     </footer>
 </div>   
 </body>
