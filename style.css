@@ -1,0 +1,113 @@
+@font-face {
+    font-family: RoadRadio;
+    src: url(assets/fonts/RoadRadio/RoadRadio-Black.ttf);
+    font-weight: 700 ;
+}
+@font-face {
+    font-family: RoadRadio;
+    src: url(assets/fonts/RoadRadio/RoadRadio-Bold.ttf);
+    font-weight: 500 ;
+}
+@font-face {
+    font-family: RoadRadio;
+    src: url(assets/fonts/RoadRadio/RoadRadio.ttf);
+    font-weight: 300 ;
+}
+@font-face {
+    font-family: RoadRadio;
+    src: url(assets/fonts/RoadRadio/RoadRadio-Light.ttf);
+    font-weight: 100 ;
+}
+@font-face {
+    font-family: SF;
+    src: url(assets/fonts/SFUIDisplay/SFUIDisplay-Semibold.ttf);
+    font-weight: 500 ;
+}
+@font-face {
+    font-family: SF;
+    src: url(assets/fonts/SFUIDisplay/SFUIDisplay-Regular.ttf);
+    font-weight: 300 ;
+}
+@font-face {
+    font-family: SF;
+    src: url(assets/fonts/SFUIDisplay/SFUIDisplay-Light.ttf);
+    font-weight: 100 ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #101010;
+}
+
+.container {
+    width:1170px;
+    height:1860px;
+    margin: auto;
+}
+
+.menu {
+    font-family: RoadRadio;
+    font-size: 18px;
+    font-weight: 300;
+}
+.menu-item{
+    display:inline;
+    margin-right: 37px;
+}
+.a-menu{
+    text-decoration: none;
+    color:#ffffff;
+    letter-spacing: 0.03em; 
+    opacity: 50%; 
+}
+
+.nav{
+
+}
+
+
+
+.header{
+    width: 600px;
+    padding-top: 50px;
+}
+
+.right-side{
+    float:right;
+    width: 369px;
+    height: 1743px;
+    background: #782DF2;
+}
+
+
+.main{
+    margin-top:110px;
+}
+
+.left-line{
+
+}
+
+.h1-title{
+    font-family: RoadRadio;
+    font-size: 68px;
+    font-weight: 700;
+    color:white; 
+    letter-spacing: 0.03em;   
+}
+
+.h1-semititle{
+    font-family: RoadRadio;
+    font-size: 16px;
+    font-weight: 100;
+    color:white; 
+    letter-spacing: 0.03em; 
+    margin-top:20px;  
+}
+
+
+
