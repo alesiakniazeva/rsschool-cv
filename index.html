@@ -31,18 +31,20 @@
         <section id="work" class="info-block-right-side">
             <h2 class="h2-title">WORK<br>POSITIONS</h2>
             <ul class="ul-right-side">
-                <p class="p-info-right"><b>December 2020 - June 2022:</b><br>Web-designer, self-employed</p>
-                <p class="p-info-right"><b>June 2022 - Now:</b><br>Software Engineer at Beltelecom</p>
+                <li class="li-right-side"><p class="p-info-right"><b>December 2020 - June 2022:</b><br>Web-designer, self-employed</p></li>
+                <li class="li-right-side"> <p class="p-info-right"><b>June 2022 - Now:</b><br>Software Engineer at Beltelecom</p></li>
+               
             </ul>
         </section>
 
         <section class="info-block-right-side">
             <h2 class="h2-title">CONTACTS</h2>
             <ul class="ul-right-side">
-                <a href="https://t.me/TracerMaker2077" class="a-contacts">Telegram</a>
-                <a href="alice.xx.green@gmail.com" class="a-contacts">E-mail</a>
-                <a href="https://github.com/alesiakniazeva" class="a-contacts">Behance</a>
-                <a href="alice.xx.green@gmail.com" class="a-contacts">GitHub</a>
+                <li class="li-right-side"><a href="https://t.me/TracerMaker2077" class="a-contacts">Telegram</a></li>
+                <li class="li-right-side"><a href="alice.xx.green@gmail.com" class="a-contacts">E-mail</a></li>
+                <li class="li-right-side"><a href="https://github.com/alesiakniazeva" class="a-contacts">Behance</a></li>
+                <li class="li-right-side"><a href="alice.xx.green@gmail.com" class="a-contacts">GitHub</a></li>
+                
             </ul>
         </section>
     </div>
@@ -52,14 +54,14 @@
                 <li class="menu-item"><a class = "a-menu" href="#code">CODE</a></li>
                 <li class="menu-item"><a class = "a-menu" href="#projects">PROJECTS</a></li>
                 <li class="menu-item"><a class = "a-menu" href="#work">WORK POSITIONS</a></li>
-                <li class="menu-item"><a class = "a-menu" href="contacts">CONTACTS</a></li>
+                <li class="menu-item"><a class = "a-menu" href="#contacts">CONTACTS</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <h1 class="h1-title">Alesia Kniazeva</h1>
         <p class="h1-semititle">WEB-DESIGNER & SOFTWARE ENGINEER</p>
-        <section class="left-line"></section>
+        <div class="left-line"></div>
         <section class="info-block-first">
             <h2 class="h2-title">ABOUT ME</h2>
             <p class="p-info">
@@ -75,16 +77,16 @@
        <section id="code" class="info-block">
         <h2 class="h2-title">CODE EXAMPLES</h2>
         <div class="code-container">
-            <code class="code"><pre>
-SELECT COUNT(*) FROM (
-SELECT itog2.d_id,  itog2.d_m_id, itog2.d_date, itog2.d_type FROM
-(SELECT d_m_id, d_date, d_type, max(d_id) as d_id FROM dvig_tbl
-WHERE d_date <='2022-11-19'
-GROUP BY d_m_id ) as itog
-INNER JOIN dvig_tbl AS itog2 on itog2.d_m_id = itog.d_m_id
-AND itog2.d_id = itog.d_id
-GROUP BY itog2.d_m_id) AS itog3
-WHERE d_type = 'поступление' OR d_type = 'возврат'</pre>
+            <code class="code"><span>
+                SELECT COUNT(*) FROM (
+                SELECT itog2.d_id,  itog2.d_m_id, itog2.d_date, itog2.d_type FROM
+                (SELECT d_m_id, d_date, d_type, max(d_id) as d_id FROM dvig_tbl
+                WHERE d_date &lt;='2022-11-19'
+                GROUP BY d_m_id ) as itog
+                INNER JOIN dvig_tbl AS itog2 on itog2.d_m_id = itog.d_m_id
+                AND itog2.d_id = itog.d_id
+                GROUP BY itog2.d_m_id) AS itog3
+                WHERE d_type = 'поступление' OR d_type = 'возврат'</span>
             </code>
         </div>
        </section>
